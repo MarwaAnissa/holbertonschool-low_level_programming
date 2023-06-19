@@ -1,6 +1,6 @@
 /*
  * File: 6-size.c
- * Auth: MarwaAnissa Beddiaf 
+ * Auth: MarwaAnissa Beddiaf
  */
 
 #include <stdio.h>
