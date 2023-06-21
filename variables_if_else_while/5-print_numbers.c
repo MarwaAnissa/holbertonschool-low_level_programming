@@ -1,26 +1,23 @@
 /*
- * File: 4-print_alphabt.c
+ * File: 5-print_numbers.c
  * Auth: Davis Joseph
  */
 
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet in lowercase, except for q and e.
+ * main - Prints all single digit numbers of base 10 starting from 0.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	char letter;
+	int num;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-	{
-		if (letter != 'e' && letter != 'q')
-			putchar(letter);
-	}
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
 
-	putchar('\n');
+	printf("\n");
 
 	return (0);
 }
