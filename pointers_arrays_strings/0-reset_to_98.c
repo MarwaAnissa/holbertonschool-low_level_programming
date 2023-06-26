@@ -1,21 +1,27 @@
+#include "main.h"
 #include <stdio.h>
 
-void reset_to_98(int *n);
+int main(void)
+{
+    
+{
+   
+int n;
 
-int main() {
+    n = 
+
+   
+
+
+402;
     
    
-int number = 42;
-
-    printf("Before: %d\n", number);
-    reset_to_98(&number);
+printf("n=%d\n", n);
+    reset_to_98(&n);
     
-    reset_to_98(&number
+    reset_to_98(&n);
 
-    reset_to_98
-
-    reset_to
-printf("After: %d\n", number);
-
+   
+printf("n=%d\n", n);
     return 0;
 }
